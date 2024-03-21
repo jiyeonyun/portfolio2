@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 900px;
+    .titleWrap{
+        text-align: left;
+        width: 100%;
+        h1{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    .imageBox{
+        position: relative;
+        display:table;
+        overflow: auto;
+        height: auto;
+       
+        & > span{
+            position: unset !important;
+        }
+        img{
+            display: table-row;
+            height: auto !important;
+            position: relative !important;
+        }
+    }
+    .textContentwrap{
+        border: 1px solid #dddd;
+        padding: 20px 40px;
+        width: 100%;
+        text-align: left;
+        span{
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    }
+}

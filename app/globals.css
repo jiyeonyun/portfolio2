@@ -10,7 +10,7 @@ a, dl, dt, dd, ol, ul, li, form, label, table{
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 10px;
+    font-size: 14px;
     vertical-align: baseline;
 }
 body{
@@ -27,3 +27,17 @@ button {
     background: transparent;
     cursor: pointer;
 }
+.content-wrapper{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 768px) {
+      padding-top: 80px;
+    }
+  }
